@@ -29,7 +29,7 @@ apis:
   tags: Taxes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/accounttax-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/merchantid-accounttax-get.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
