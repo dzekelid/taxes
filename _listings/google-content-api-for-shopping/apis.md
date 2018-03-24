@@ -16,8 +16,8 @@ tags:
 - Google APIs
 - Content
 - Commerce
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Taxes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/merchantid-accounttax-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/accounttax-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
