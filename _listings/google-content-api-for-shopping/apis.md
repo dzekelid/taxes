@@ -30,16 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/merchantid-accounttax-get.md
-- name: Google Content API for Shopping API Account Taxes
-  description: Retrieves and updates tax settings of multiple accounts in a single
-    request.
+- name: Google Content API for Shopping API Get Account Taxes
+  description: Lists the tax settings of the sub-accounts in your Merchant Center
+    account. This method can only be called for multi-client accounts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Taxes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/accounttax-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/merchantid-accounttax-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/merchantid-accounttax-get-postman.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
