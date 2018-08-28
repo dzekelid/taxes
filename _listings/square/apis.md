@@ -1,49 +1,217 @@
 ---
 name: Square
-description: Starting with a free credit card reader for the iPhone, iPad, and Android
-  devices, Square Reader allows anyone to accept credit cards anywhere, anytime, for
-  a low transaction rate of 2.75 percent per swipe, with no hidden fees. Square Register
-  serves as a full point-of-sale system for businesses to accept payments, manage
-  items, and share menu and location information. Square Wallet, available in the
-  US, is the most seamless way to pay, enabling individuals to pay at their favorite
-  local businesses, discover new ones nearby, explore menu listings, and store receipts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
+x-slug: square
+description: Square helps millions of sellers run their business- from secure credit
+  card processing to point of sale solutions. Get paid faster with Square and sign
+  up today!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payment API
-- Credit Cards
-- Commerce
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "2433"
+tags: Taxes
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Catalog Update Item Taxes
-  description: |-
-    Updates the [CatalogTax](#type-catalogtax) objects that apply to the
-    targeted [CatalogItem](#type-catalogitem) without having to perform an
-    upsert on the entire item.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
-  humanURL: https://squareup.com
-  baseURL: https://connect.squareup.com/v1/
-  tags: Taxes
+- name: Square Connect - Lists all of a location's fees (taxes).
+  x-api-slug: v1location-idfees-get
+  description: Lists all of a location's fees (taxes).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-get-openapi.md
+- name: Square Connect - Creates a fee (tax).
+  x-api-slug: v1location-idfees-post
+  description: Creates a fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v2-catalog-update-item-taxes-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-post-openapi.md
+- name: Square Connect - Creates a fee (tax).
+  x-api-slug: v1location-idfees-post
+  description: Creates a fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-post-openapi.md
+- name: Square Connect - Deletes an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-delete
+  description: Deletes an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-delete-openapi.md
+- name: Square Connect - Creates a fee (tax).
+  x-api-slug: v1location-idfees-post
+  description: Creates a fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-post-openapi.md
+- name: Square Connect - Deletes an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-delete
+  description: Deletes an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Deletes an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-delete
+  description: Deletes an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Deletes an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-delete
+  description: Deletes an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfeesfee-id-delete-openapi.md
+- name: Square Connect - Creates a fee (tax).
+  x-api-slug: v1location-idfees-post
+  description: Creates a fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/v1location-idfees-post-openapi.md
 x-common:
+- type: x-website
+  url: http://square.com
+- type: x-api-gallery
+  url: http://spreaker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://square.stack.network
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/square
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/square
 - type: x-developer
   url: https://connect.squareup.com/
+- type: x-email
+  url: press@squareup.com
+- type: x-email
+  url: security@squareup.com
+- type: x-email
+  url: lawenforcement@squareup.com
+- type: x-email
+  url: redemption@squareup.com
+- type: x-email
+  url: privacy@squareup.com
+- type: x-email
+  url: community@squareup.com
+- type: x-email
+  url: noreply@messaging.squareup.com
+- type: x-email
+  url: ir@squareup.com
+- type: x-email
+  url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
+- type: x-linkedin
+  url: https://www.linkedin.com/company/square--/
 - type: x-twitter
   url: https://twitter.com/Square
+- type: x-website
+  url: http://squareup.com
 - type: x-website
   url: https://squareup.com
 include: []

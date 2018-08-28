@@ -1,0 +1,375 @@
+{
+	"name": "Streadata.io API Gallery - Taxes",
+	"description": "This is a repository of taxes APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/taxes.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://taxes.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xero",
+			"x-api-slug": "xero",
+			"description": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg",
+			"humanURL": "http://www.xero.com/",
+			"baseURL": "https://api.xero.com//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/xero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Service Objects",
+			"x-api-slug": "service-objects",
+			"description": "With our suite of data verification APIs for phone, email, address and more, you can keep your businesss database clean, accurate, and up to date.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/371-service-objects.jpg",
+			"humanURL": "http://www.serviceobjects.com/",
+			"baseURL": "https:///",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/service-objects/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Washington State Department of Revenue Sales Tax Rate",
+			"x-api-slug": "washington-state-department-of-revenue-sales-tax-rate",
+			"description": "The Employment Security Department helps Washington states workers and employers succeed in the global economy by delivering superior employment services, timely unemployment benefits, and a fair and stable unemployment-benefits system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/669-washington-state-department-of-revenue-sales-tax-rate.jpg",
+			"humanURL": "http://dor.wa.gov/Content/FindTaxesAndRates/RetailSalesTax/DestinationBased/ClientInterface.aspx",
+			"baseURL": "https:///",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/washington-state-department-of-revenue-sales-tax-rate/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avalara",
+			"x-api-slug": "avalara",
+			"description": "Avalara is software for automated tax compliance. Whether you are selling online, starting a new business, or need help filing internationally Avalara can help.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1284-avadev.jpg",
+			"humanURL": "http://avalara.com",
+			"baseURL": "https:///",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/avalara/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"x-api-slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+			"description": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF, BATF, and BATFE) is a federal law enforcement organization within the United States Department of Justice.[4] Its responsibilities include the investigation and prevention of federal offenses involving the unlawful use, manufacture and possession of firearms and explosives; acts of arson and bombings; and illegal trafficking of alcohol and tobacco products. The ATF also regulates via licensing the sale, possession, and transportation of firearms, ammunition, and explosives in interstate commerce. Many of ATFs activities are carried out in conjunction with task forces made up of state and local law enforcement officers, such as Project Safe Neighborhoods. ATF operates a unique fire research laboratory in Beltsville, Maryland, where full-scale mock-ups of criminal arson can be reconstructed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/399px-US-AlcoholTobaccoFirearmsAndExplosives-Seal.svg.png",
+			"humanURL": "http://atf.gov",
+			"baseURL": "https:///",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"x-api-slug": "google-content-api-for-shopping",
+			"description": "API allowing retailers to manage their product feed content programmatically. Providing item-level data quality information: See if an item was disapproved because a landing page URL isn&rsquo;t working on a mobile device or if unique product identifiers are inaccurate. Faster pricing and availability updates: Ensure customers have the latest price-points and know what&rsquo;s in-stock before they click through to your site. More integration options: The newer API supports a broader choice of programming languages and data formats.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg",
+			"humanURL": "https://developers.google.com/shopping-content/v2/quickstart",
+			"baseURL": "://www.googleapis.com//content/v2",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Paylocity",
+			"x-api-slug": "paylocity",
+			"description": "Paylocity has delivered industry-leading software and unmatched customer service since our inception. Our mission of elevating payroll and human resources across the backroom and into the boardroom speaks to just that. Today, Paylocity continues to develop innovative solutions that simplify the lives of payroll and HR professionals across the country. Through powerful analytics, robust reporting, intuitive usability, and modern functionality&mdash;our clients increase efficiency and manage workforces more effectively.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg",
+			"humanURL": "http://www.paylocity.com",
+			"baseURL": "https://api.paylocity.com//api",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/paylocity/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/bookeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Taxes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Taxes",
+	"include": [
+		{
+			"name": "Xero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/xero/apis.yaml"
+		},
+		{
+			"name": "Service Objects",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/service-objects/apis.yaml"
+		},
+		{
+			"name": "Washington State Department of Revenue Sales Tax Rate",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/washington-state-department-of-revenue-sales-tax-rate/apis.yaml"
+		},
+		{
+			"name": "Avalara",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/avalara/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Google Content API for Shopping",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/google-content-api-for-shopping/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Paylocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/paylocity/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/bookeo/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/taxes/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
